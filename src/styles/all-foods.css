@@ -13,6 +13,7 @@
   outline: none;
 }
 
+
 @media only screen and (max-width: 768px) {
   .search__widget {
     width: 100%;

@@ -2,8 +2,6 @@ import React from "react";
 import "../../../styles/product-card.css";
 
 import { Link } from "react-router-dom";
-
-import productImg from "../../../assets/images/product_2.1.jpg";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../../store/Shopping-cart/cartSlice";
 

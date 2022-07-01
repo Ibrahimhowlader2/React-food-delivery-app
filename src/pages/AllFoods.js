@@ -18,7 +18,7 @@ const AllFoods = () => {
       return item;
   });
 
-  const productPerPage = 8;
+  const productPerPage = 12;
   const visitedPage = pageNumber * productPerPage;
   const displayPage = searchedProduct.slice(
     visitedPage,
@@ -74,6 +74,7 @@ const AllFoods = () => {
                 previousLabel="Prev"
                 nextLabel="Next"
                 containerClassName=" paginationBttns "
+                activeClassName="pagination_active"
               />
             </div>
           </Row>

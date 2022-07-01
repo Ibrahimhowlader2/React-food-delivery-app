@@ -25,3 +25,6 @@
 .paginationBttns a:hover {
   background: #df2020;
 }
+li.pagination_active a {
+  background: #df2020;
+}
