@@ -43,8 +43,10 @@ const FoodDetails = () => {
     );
   };
 
-    const submitHandler = () => {
-      
+  const submitHandler = (e) => {
+    e.preventDefault();
+
+    console.log(enteredName, enteredEmail, reviewMsg);
   };
 
   return (
